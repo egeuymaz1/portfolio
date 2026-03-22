@@ -2,21 +2,21 @@
   site: {
     brandMark: "egeuymaz",
     location: "IST",
-    homeEyebrow: "Selected from real media",
-    homeHeadline: "Merhaba*, welcome to my porfolio page.",
+    homeEyebrow: "Selected from real projects",
+    homeHeadline: "Merhaba*, welcome to my portfolio page.",
     title: "*Merhaba means hello in Turkish.",
-    intro: "There are my selected works from various media in this portfolio.",
+    intro: "Here are selected works from various media and clients.",
     stats: [
       { value: "AGE", label: "27" },
       { value: "LOVES", label: "to make music" },
       { value: "2024", label: "Graduated" }
     ],
     aboutTitle: "Graphic and motion designer",
-    about: "based in Turkey. Recently married and loving it.",
+    about: "based in Istanbul, Turkey.",
     contactLabel: "for new projects and collaborations",
     contactEmail: "egeuymaz@gmail.com",
-    detailHeroNote: "Bu sayfa gecici metinlerle dolduruldu. Tum medya senin dosyalarindan geliyor.",
-    projectMapNote: "Asagidaki medya bloklari her kategori icin ornek olarak secildi."
+    detailHeroNote: "Secili marka icin hareketli ve duragan tum medya icerikleri bu sayfada toplanir; medya bloklari asagi indikce yuklenir.",
+    projectMapNote: "Yatay serit, projedeki farkli medya turlerini gosterir; mouse wheel veya trackpad ile, mobilde ise yatay kaydirma ile gezinebilirsin."
   },
   cv: {
     title: "CV / Resume",
