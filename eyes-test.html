@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Eyes Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #050505;
+      --line: rgba(255, 255, 255, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle at top, #222 0, #050505 40%);
+      color: #f5f2ea;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+    }
+
+    .shell {
+      display: grid;
+      gap: 1.5rem;
+      padding: 2rem 2.5rem;
+      border-radius: 20px;
+      border: 1px solid var(--line);
+      background: radial-gradient(circle at top, rgba(255, 255, 255, 0.04), rgba(0, 0, 0, 0.9));
+      box-shadow: 0 18px 45px rgba(0, 0, 0, 0.7);
+    }
+
+    .title {
+      font-size: 1.1rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      opacity: 0.8;
+    }
+
+    .note {
+      font-size: 0.8rem;
+      opacity: 0.7;
+    }
+
+    .eyes-stage {
+      position: relative;
+      width: min(360px, 42vw);
+      aspect-ratio: 1 / 1;
+      cursor: none;
+    }
+
+    .eyes-stage.is-editing {
+      outline: 2px dashed rgba(255, 255, 255, 0.4);
+      cursor: crosshair;
+    }
+
+    .eyes-layer {
+      position: absolute;
+      inset: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      pointer-events: none;
+    }
+
+    /* Katman sırası: en altta white bg, ortada pupils, en üstte face */
+    .eyes-bg {
+      z-index: 1;
+    }
+
+    .eyes-face {
+      z-index: 3;
+    }
+
+    .eyes-pupil {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #000;
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+      transform: translate(-50%, -50%);
+      transform-origin: center;
+      z-index: 2;
+    }
+
+    .eyes-stage.is-editing .eyes-pupil {
+      pointer-events: auto;
+      cursor: move;
+    }
+
+    /* Bu değerler yeni küçük pupil PNG'leri için tahmini hizalar. 
+       Göz boşluklarıyla tam oturana kadar left/top yüzdelerini ince ayarlayabilirsin. */
+    .eyes-pupil-left {
+      left: 42.381%;
+      top: 43.0159%;
+    }
+
+    .eyes-pupil-right {
+      left: 53.5714%;
+      top: 41.5873%;
+    }
+
+    .hint {
+      font-size: 0.78rem;
+      opacity: 0.75;
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <div>
+      <div class="title">Eyes test</div>
+      <p class="note">Mouse'u kutunun içinde hareket ettir; göz bebekleri takip edecek. Yüz çizimini ana siteye taşımadan önce buradan hizalarını ayarlayabilirsin.</p>
+    </div>
+
+    <div class="eyes-stage" id="eyes-stage">
+      <img class="eyes-layer eyes-bg" src="eyes/eye white bg.png" alt="Eyes background" />
+      <img class="eyes-layer eyes-face" src="eyes/face and bg.png" alt="Face" />
+      <div class="eyes-pupil eyes-pupil-left"></div>
+      <div class="eyes-pupil eyes-pupil-right"></div>
+    </div>
+
+    <p class="hint">Her göz için daireler kullanılıyor; konumu <code>.eyes-pupil-left</code> ve <code>.eyes-pupil-right</code> için <code>left/top</code> yüzdeleriyle ayarlayabilirsin.</p>
+  </div>
+
+  <script>
+    (function () {
+      const stage = document.getElementById("eyes-stage");
+      if (!stage) return;
+
+      const pupils = Array.from(stage.querySelectorAll(".eyes-pupil"));
+      const maxOffset = 4; // px, göz bebeğinin hafifçe oynayacağı yarıçap
+      let editMode = false;
+      let activePupil = null;
+
+      function updateEyes(event) {
+        if (editMode) {
+          // Edit modunda sadece konum sabit kalsın, hareket etmesin
+          pupils.forEach((eye) => {
+            eye.style.transform = "translate(-50%, -50%)";
+          });
+          return;
+        }
+
+        const rect = stage.getBoundingClientRect();
+        const centerX = rect.left + rect.width / 2;
+        const centerY = rect.top + rect.height / 2;
+        const mouseX = event.clientX;
+        const mouseY = event.clientY;
+
+        const dx = mouseX - centerX;
+        const dy = mouseY - centerY;
+        const dist = Math.hypot(dx, dy) || 1;
+
+        const nx = (dx / dist) * maxOffset;
+        const ny = (dy / dist) * maxOffset;
+
+        pupils.forEach((eye) => {
+          eye.style.transform = `translate(calc(-50% + ${nx}px), calc(-50% + ${ny}px))`;
+        });
+      }
+
+      function resetEyes() {
+        pupils.forEach((eye) => {
+          eye.style.transform = "translate(-50%, -50%)";
+        });
+      }
+
+      // Normal modda tüm ekranda mouse'u takip etsin
+      window.addEventListener("mousemove", updateEyes);
+      window.addEventListener("mouseleave", resetEyes);
+
+      // Edit modu: E tuşu ile aç/kapat, gözleri sürükleyerek hizala
+      window.addEventListener("keydown", (event) => {
+        if (event.key === "e" || event.key === "E") {
+          editMode = !editMode;
+          stage.classList.toggle("is-editing", editMode);
+          if (editMode) {
+            resetEyes();
+            console.log("Eyes edit mode: ON (gözleri sürükleyerek hizala, konumlar console'a yazılacak)");
+          } else {
+            console.log("Eyes edit mode: OFF");
+          }
+        }
+      });
+
+      pupils.forEach((eye) => {
+        eye.addEventListener("mousedown", (event) => {
+          if (!editMode) return;
+          event.preventDefault();
+          activePupil = eye;
+        });
+      });
+
+      window.addEventListener("mousemove", (event) => {
+        if (!editMode || !activePupil) return;
+
+        const rect = stage.getBoundingClientRect();
+        const x = event.clientX - rect.left;
+        const y = event.clientY - rect.top;
+        const pctX = (x / rect.width) * 100;
+        const pctY = (y / rect.height) * 100;
+
+        activePupil.style.left = `${pctX}%`;
+        activePupil.style.top = `${pctY}%`;
+      });
+
+      window.addEventListener("mouseup", () => {
+        if (editMode && activePupil) {
+          const which = activePupil.classList.contains("eyes-pupil-left") ? "left" : "right";
+          console.log(
+            `Pupil ${which} konumu -> left: ${activePupil.style.left}, top: ${activePupil.style.top}`
+          );
+        }
+        activePupil = null;
+      });
+
+      // Başlangıçta gözler tam hizalı dursun
+      resetEyes();
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,237 @@
+﻿# categoryFolder | fileName | type | hover text
+Arkhe Project | 1x1.jpg | image | poster
+Arkhe Project | 20.jpg | image | poster
+Arkhe Project | 27.jpg | image | poster
+Arkhe Project | 29.jpg | image | poster
+Arkhe Project | arzu.jpg | image | poster
+Arkhe Project | arzu5x3.jpg | image | poster
+Arkhe Project | arzu6x1.jpg | image | poster
+Arkhe Project | b1x1.jpg | image | poster
+Arkhe Project | b5x3.jpg | image | poster
+Arkhe Project | b6x1.jpg | image | poster
+Arkhe Project | bi3.jpg | image | poster
+Arkhe Project | bi5x3.jpg | image | poster
+Arkhe Project | bi6x1.jpg | image | poster
+Arkhe Project | e1.jpg | image | poster
+Arkhe Project | e5x3.jpg | image | poster
+Arkhe Project | e6x1.jpg | image | poster
+Arkhe Project | k1son.jpg | image | poster
+Arkhe Project | k5x3.jpg | image | poster
+Arkhe Project | k6x1.jpg | image | poster
+Arkhe Project | m1.jpg | image | poster
+Arkhe Project | m5x3.jpg | image | poster
+Arkhe Project | m6x1.jpg | image | poster
+Arkhe Project | nöroson.jpg | image | poster
+Arkhe Project | r1.jpg | image | poster
+Arkhe Project | r5x3.jpg | image | poster
+Arkhe Project | r6x1.jpg | image | poster
+Arkhe Project | rö3.jpg | image | poster
+Arkhe Project | rö5x3.jpg | image | poster
+Arkhe Project | rö6x1.jpg | image | poster
+Arkhe Project | si1x1.jpg | image | poster
+Arkhe Project | si5x3.jpg | image | poster
+Arkhe Project | si6x1.jpg | image | poster
+Arkhe Project | t2.jpg | image | poster
+Arkhe Project | t5x3.jpg | image | poster
+Arkhe Project | t6x1.jpg | image | poster
+Derschutze | 34.png | image | poster
+Derschutze | 35.png | image | ad creative
+Derschutze | 36.png | image | ad creative
+Derschutze | 37.png | image | ad creative
+Derschutze | 38.png | image | ad creative
+Derschutze | 39.png | image | ad creative
+Derschutze | 40.png | image | ad creative
+Derschutze | 41.png | image | ad creative
+Derschutze | 57.jpg | image | poster
+Derschutze | 59.jpg | image | poster
+Derschutze | 61.jpg | image | poster
+Derschutze | 62.jpg | image | poster
+Derschutze | 8.png | image | ad creative
+Derschutze | a1.png | image | ad creative carousel
+Derschutze | a2.png | image | ad creative carousel
+Derschutze | a3.png | image | ad creative carousel
+Derschutze | a4.png | image | ad creative carousel
+Derschutze | Artboard 11.png | image | ad creative carousel
+Derschutze | Artboard 2.png | image | ad creative carousel
+Derschutze | Artboard 3.png | image | ad creative carousel
+Derschutze | flyer_newyork.jpg | image | flyer
+Derschutze | gallery1.png | image | ad creative
+Derschutze | gallery2.png | image | ad creative
+Derschutze | Group 19.png | image | ad creative
+Derschutze | Group 20.png | image | ad creative
+Derschutze | Group 22.png | image | ad creative
+Derschutze | Group 25.png | image | ad creative
+Derschutze | Group 27.png | image | ad creative
+Derschutze | koiuzun.png | image | ad creative carousel
+Derschutze | morocco1.png | image | ad creative
+Derschutze | morocco2.png | image | ad creative
+Derschutze | morocco3.png | image | ad creative
+Derschutze | news_gif_1.mp4 | video | newsletter
+Derschutze | panbts2.png | image | ad creative
+Derschutze | pants.png | image | ad cread creativeative
+Derschutze | pants1.png | image | ad creative
+Derschutze | spiderweb_newsletter.png | image | newsletter
+Derschutze | store_postsize.png | image | flyer
+Derschutze | Artboard 1 copy 2.png | image | newsletter
+Derschutze | Artboard 1 copy 8.png | image | newsletter
+Derschutze | Artboard 1.png | image | newsletter
+Derschutze | available_news.png | image | newsletter
+Derschutze | available_newsletter_watch2.png | image | newsletter
+Derschutze | aziza_available_newsletter.png | image | newsletter
+Derschutze | email_blossom.png | image | newsletter
+Derschutze | email_newsletter.png | image | newsletter
+Derschutze | koi\u0026yasmin_newsletter.png | image | newsletter
+Derschutze | koi_newsletter1.png | image | newsletter
+Derschutze | 12.png | image | sticker
+Derschutze | 3.png | image | sticker
+Derschutze | 31.png | image | sticker
+Derschutze | 38.png | image | sticker
+Derschutze | 4.png | image | sticker
+Derschutze | 41.png | image | sticker
+Derschutze | 8.png | image | sticker
+Derschutze | arabic_newspaper_baskı.jpg | image | printed newspaper
+Derschutze | Group 19.png | image | sticker
+Derschutze | Group 2.png | image | sticker
+Derschutze | Group 20.png | image | sticker
+Derschutze | Group 21.png | image | sticker
+Derschutze | Group 22.png | image | sticker
+Derschutze | Group 23.png | image | sticker
+Derschutze | Group 24.png | image | sticker
+Derschutze | poster_baskı_arabic_2.jpg | image | printed poster
+Derschutze | poster_baskı_astro4_yeni.jpg | image | printed poster
+Derschutze | poster_baskı_frog2.jpg | image | printed poster
+Derschutze | poster_baskı_jazz2.jpg | image | printed poster
+Derschutze | poster_baskı_yakuza3.jpg | image | printed poster
+Derschutze | 1.mp4 | video | social media 
+Derschutze | 2.mp4 | video | social media
+Derschutze | 27.mp4 | video | website animation
+Derschutze | 3.mp4 | video | social media
+Derschutze | 33.mp4 | video | ad creative
+Derschutze | 34.mp4 | video | ad creative
+Derschutze | 35.mp4 | video | ad creative
+Derschutze | 36.mp4 | video | ad creative
+Derschutze | 4.mp4 | video | social media
+Derschutze | 5.mp4 | video | social media
+Derschutze | 52.mp4 | video | ai video
+Derschutze | 53.mp4 | video |  ai video
+Derschutze | 54.mp4 | video |  ai video
+Derschutze | 57.mp4 | video | website animation
+Derschutze | 63.mp4 | video | video
+Derschutze | 64.mp4 | video | video
+Derschutze | 9x16.mp4 | video | ad creative
+Derschutze | andreas3.mp4 | video | motion graphics
+Derschutze | animasyon_sesli.mp4 | video |  animation
+Derschutze | asansör sesli.mp4 | video | social media
+Derschutze | BG.mp4 | video | website bg
+Derschutze | blossom.mp4 | video | ad creative
+Derschutze | Comp 1.mp4 | video | social media
+Derschutze | Comp 2.mp4 | video | social media
+Derschutze | Comp 3.mp4 | video | social media
+Derschutze | Comp 4.mp4 | video | social media
+Derschutze | Comp 5.mp4 | video | social media
+Derschutze | deneme2.mp4 | video | social media
+Derschutze | deneme4.mp4 | video | social media
+Derschutze | insta_video.mp4 | video | social media
+Derschutze | knit.mp4 | video | social media
+Derschutze | logo çiçek.mp4 | video | logo animation
+Derschutze | Loop2_1.mp4 | video | social media
+Derschutze | Morocco windows 2.mp4 | video | website animation
+Derschutze | retro1.mp4 | video | social media
+Derschutze | retro2.mp4 | video | social media
+Derschutze | retro3.mp4 | video | social media
+Derschutze | sakura_girl.mp4 | video | logo animation
+Derschutze | tracksuit1.mp4 | video | ai video
+Derschutze | tracksuit2.mp4 | video | ai video
+Derschutze | Tüm sahne2.mp4 | video | social media
+Kliik | 1.png | image | social media
+Kliik | 2.png | image | social media
+Kliik | 2222.png | image | kidsandkods 
+Kliik | 3.png | image | social media
+Kliik | ahtapot_01.jpg | image | calipso
+Kliik | ahtapot_02.jpg | image | calipso
+Kliik | ahtapot_03.png | image | calipso
+Kliik | Artboard 7 copy 3.png | image | ledwell
+Kliik | Artboard 7 copy.png | image | ledwell
+Kliik | Artboard 8 copy 2.png | image | ledwell
+Kliik | Group 1.jpg | image | pandolce
+Kliik | Group 2.jpg | image | pandolce
+Kliik | Group 2.png | image | lugelato
+Kliik | Group 3.png | image | lugelato
+Kliik | Group 5-1.jpg | image | lugelato
+Kliik | Group 5-2.jpg | image | lugelato
+Kliik | Group 5.jpg | image | lugelato
+Kliik | Group 5.png | image | lugelato
+Kliik | Group 7 copy.png | image | lugelato
+Kliik | Group 7.png | image | lu gelato
+Kliik | kabak tahin.png | image | lugelato
+Kliik | kapı.png | image | lu gelato
+Kliik | patelote.png | image | lugelato
+Kliik | post.png | image | lu gelato
+Kliik | sicilya.png | image | lugelato
+Kliik | yorumlar.png | image | lugelato
+Kliik | 0322 (1).mp4 | video | lugelato animation
+Kliik | 1.mp4 | video |   birkenstock ad 
+Kliik | 2.mp4 | video |  birkenstock ad 
+Kliik | 3.mp4 | video | lugelato
+Kliik | 33.mp4 | video |  birkenstock ad 
+Kliik | 7.mp4 | video | kidsandkods
+Kliik | 8 mart video.mp4 | video | lugelato
+Kliik | 8.mp4 | video | kidsandkods
+Kliik | altüst3.mp4 | video | lugelato
+Kliik | Artboard 1.mp4 | video | lugelato
+Kliik | cornetuzanma.mp4 | video | lugelato
+Kliik | denemedersi.mp4 | video | kidsandkods
+Kliik | kampanya.mp4 | video | ledwell
+Kliik | mavi kornet.mp4 | video | lugelato
+Kliik | tık.mp4 | video | kidsandkods
+Kliik | video.mp4 | video | kliik ad creative
+Nesin Köyü | de5x3.png | image | poster
+Nesin Köyü | de6x1.jpg | image | poster
+Nesin Köyü | deinsta.png | image | poster
+Nesin Köyü | ga5x3.png | image | poster
+Nesin Köyü | ga6x1.png | image | poster
+Nesin Köyü | gainsta.png | image | poster
+Nesin Köyü | pa1x1.jpeg | image | poster
+Nesin Köyü | pa5x3.jpeg | image | poster
+Nesin Köyü | pa6x1.jpeg | image | poster
+Nesin Köyü | qu12.jpg | image | poster
+Nesin Köyü | qu5x3_1.jpg | image | poster
+Nesin Köyü | quİNSTA.jpg | image | poster
+Personal | 1.png | image | social media
+Personal | 15\u0027\u0027 Modyo Tv.mp4 | video | TV ad
+Personal | 2.png | image | social media
+Personal | 3.png | image | social media
+Personal | diabeticaliens_ecrin.mp4 | video | game teaser
+Personal | ege_uymaz_ortaköy_story.mp4 | video | social media
+Personal | hareketli_poster.mp4 | video | TV ad
+Personal | indirimweb_1920.mp4 | video | WEB ad
+Personal | karavana.mp4 | video | social media
+Personal | koel.mp4 | video |  social media
+Personal | mindway.mp4 | video |  social media
+Personal | turkishsoap.mp4 | video | logo animation
+Personal | video.mp4 | video |  social media
+Personal | vreemu.mp4 | video |  social media
+Personal | 0322(1).mp4 | video | Paribu Exhibition video
+Personal | 0322(2).mp4 | video | app video
+Personal | 0322.mp4 | video | Paribu Exhibition video 2
+Personal | 2.jpg | image | Paribu Exhibition 
+Personal | ameli2.png | image | Paribu Exhibition
+Personal | içindek.jpg | image | Paribu Exhibition
+Personal | sözlü2.png | image | Paribu Exhibition
+Personal | 1.jpg | image | social media
+Personal | 2.jpg | image | social media
+Personal | 3.jpg | image | social media
+Personal | 4.jpg | image | social media
+Personal | Artboard 1.jpg | image | social media
+Personal | Artboard 1.png | image | social media
+Personal | Artboard 2 copy 2.jpg | image | social media
+Personal | Untitled-1_01.jpg | image | social media
+Personal | Untitled-1_02.jpg | image | social media
+Personal | Untitled-1_03.jpg | image | social media
+Personal | Untitled-1_04.jpg | image | social media
+Personal | video1.mp4 | video | social media reel
+Psikanaliz Derneği | Artboard 1.png | image | poster
+Psikanaliz Derneği | Artboard 2.png | image | poster
+Psikanaliz Derneği | Artboard 3 copy.png | image | poster
+Psikanaliz Derneği | Artboard 3.png | image | poster
+Psikanaliz Derneği | Group 5-2.jpg | image | poster
