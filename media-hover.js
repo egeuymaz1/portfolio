@@ -78,7 +78,7 @@ window.MEDIA_HOVER = [
   { "categoryId": "derschutze", "file": "Artboard 1 copy 2.png", "text": "newsletter" },
   { "categoryId": "derschutze", "file": "Artboard 1 copy 8.png", "text": "newsletter" },
   { "categoryId": "derschutze", "file": "Artboard 1.png", "text": "newsletter" },
-  { "categoryId": "derschutze", "file": "available_news.png", "text": "newsletter" },
+  { "categoryId": "derschutze", "file": "available_news.jpg", "text": "newsletter" },
   { "categoryId": "derschutze", "file": "available_newsletter_watch2.png", "text": "newsletter" },
   { "categoryId": "derschutze", "file": "aziza_available_newsletter.png", "text": "newsletter" },
   { "categoryId": "derschutze", "file": "email_blossom.png", "text": "newsletter" },

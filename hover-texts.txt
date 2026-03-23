@@ -75,7 +75,7 @@ Derschutze | store_postsize.png | image | flyer
 Derschutze | Artboard 1 copy 2.png | image | newsletter
 Derschutze | Artboard 1 copy 8.png | image | newsletter
 Derschutze | Artboard 1.png | image | newsletter
-Derschutze | available_news.png | image | newsletter
+Derschutze | available_news.jpg | image | newsletter
 Derschutze | available_newsletter_watch2.png | image | newsletter
 Derschutze | aziza_available_newsletter.png | image | newsletter
 Derschutze | email_blossom.png | image | newsletter

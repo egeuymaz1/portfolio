@@ -610,9 +610,9 @@ window.MEDIA_REGISTRY = [
     },
     {
         "folder":  "Derschutze",
-        "file":  "available_news.png",
+        "file":  "available_news.jpg",
         "type":  "image",
-        "src":  "media/Derschutze/statics/newsletter/available_news.png",
+        "src":  "media/Derschutze/statics/newsletter/available_news.jpg",
         "alt":  "available_news",
         "subCategory":  "newsletter"
     },
